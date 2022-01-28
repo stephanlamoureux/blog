@@ -4,6 +4,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  text-shadow: 0 4px 3px rgb(0 0 0 / 40%), 0 8px 13px rgb(0 0 0 / 10%), 0 18px 23px rgb(0 0 0 / 10%);
 }
 
 .headingXl {
@@ -48,5 +49,5 @@
 }
 
 .lightText {
-  color: #666;
+  color: #e0e0e0;
 }
