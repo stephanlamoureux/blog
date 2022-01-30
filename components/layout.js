@@ -18,17 +18,11 @@ export default function Layout({ children, home }) {
             as="font"
             crossOrigin=""
           />
-        <meta
-          name="description"
-          content="Personal Blog of Stephan Lamoureux"
-        />
-        <meta
-          property="og:image"
-          content="images/profile-pic.png"
-        />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="description" content="Personal Blog of Stephan Lamoureux" />
+        <meta property="og:image" content="https://nextjs-blog-two-puce-15.vercel.app/_next/image?url=%2Fimages%2Fprofile-pic.png&w=256&q=75" />
+        <meta property="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="images/profile-pic.png" />
+        <meta name="twitter:image" content="https://nextjs-blog-two-puce-15.vercel.app/_next/image?url=%2Fimages%2Fprofile-pic.png&w=256&q=75" />
       </Head>
       <header className={styles.header}>
         {home ? (
