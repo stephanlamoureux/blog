@@ -55,3 +55,30 @@ img {
   max-width: 100%;
   display: block;
 }
+
+blockquote::before {
+   content: open-quote;
+   margin-right: 5px;
+   font-size: 1.4em;
+   line-height: 0;
+   color: var(--dracula-cyan)
+}
+
+blockquote {
+  border-left: 0.3em solid var(--dracula-cyan);
+  padding: 0 0 0 15px;
+  font-style: italic;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote::after {
+  content: close-quote;
+  margin-left: 5px;
+  font-size: 1.4em;
+  line-height: 0;
+  color: var(--dracula-cyan)
+}
+
+blockquote p {
+  display: inline;
+}
