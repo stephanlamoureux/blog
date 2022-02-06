@@ -21,6 +21,13 @@
   margin: 1rem 0;
 }
 
+.headingLgName {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+  color:#f8f8f2;
+}
+
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;

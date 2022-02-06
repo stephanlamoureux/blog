@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Stephan'
+const name = 'Stephan Lamoureux'
 export const siteTitle = 'Blog Posts'
 
 export default function Layout({ children, home }) {
@@ -51,7 +51,7 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
+            <h2 className={utilStyles.headingLgName}>
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
