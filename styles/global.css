@@ -1,88 +1,92 @@
 @font-face {
-  font-family: 'Inter';
-  src: url('../public/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-display: swap;
+	font-family: 'Inter';
+	src: url('../public/fonts/Inter-VariableFont_slnt\,wght.ttf')
+		format('truetype');
+	font-weight: 100 900;
+	font-display: swap;
 }
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  line-height: 1.5;
-  font-size: 18px;
-  background-color: var(--dracula-background);
-  color: var(--dracula-foreground);
-  text-shadow: 0 4px 3px rgb(0 0 0 / 40%), 0 8px 13px rgb(0 0 0 / 10%), 0 18px 23px rgb(0 0 0 / 10%);
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	line-height: 1.5;
+	font-size: 18px;
+	background-color: var(--dracula-background);
+	color: var(--dracula-foreground);
+	text-shadow: 0 4px 3px rgb(0 0 0 / 40%), 0 8px 13px rgb(0 0 0 / 10%),
+		0 18px 23px rgb(0 0 0 / 10%);
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *::selection {
-  background: var(--dracula-green);
-  color: var(--dracula-background);
+	background: var(--dracula-green);
+	color: var(--dracula-background);
 }
 
 :root {
-  --dracula-background: #282a36;
-  --dracula-comment: #6272a4;
-  --dracula-cyan: #8be9fd;
-  --dracula-foreground: #f8f8f2;
-  --dracula-green: #50fa7b;
-  --dracula-greypurple: #383a59;
-  --dracula-orange: #ffb86c;
-  --dracula-pink: #ff79c6;
-  --dracula-purple: #bd93f9;
-  --dracula-red: #ff5555;
-  --dracula-selection: #44475a;
-  --dracula-yellow: #f1fa8c;
+	--dracula-background: #282a36;
+	--dracula-comment: #6272a4;
+	--dracula-cyan: #8be9fd;
+	--dracula-foreground: #f8f8f2;
+	--dracula-green: #50fa7b;
+	--dracula-greypurple: #383a59;
+	--dracula-orange: #ffb86c;
+	--dracula-pink: #ff79c6;
+	--dracula-purple: #bd93f9;
+	--dracula-red: #ff5555;
+	--dracula-selection: #44475a;
+	--dracula-yellow: #f1fa8c;
 }
 
 a {
-  color: var(--dracula-pink);
-  text-decoration: none;
+	color: var(--dracula-pink);
+	text-decoration: none;
 }
 
 a:hover {
-  color: var(--dracula-purple);
-  transform: ease 0.1s;
+	color: var(--dracula-purple);
+	transform: ease 0.1s;
 }
 
 img {
-  max-width: 100%;
-  display: block;
+	max-width: 100%;
+	display: block;
 }
 
 blockquote::before {
-   content: open-quote;
-   margin-right: 5px;
-   font-size: 1.4em;
-   line-height: 0;
-   color: var(--dracula-cyan)
+	content: open-quote;
+	margin-right: 5px;
+	font-size: 1.4em;
+	line-height: 0;
+	color: var(--dracula-cyan);
 }
 
 blockquote {
-  border-left: 0.3em solid var(--dracula-cyan);
-  padding: 0 0 0 15px;
-  font-style: italic;
-  quotes: "\201C""\201D""\2018""\2019";
+	border-left: 0.3em solid var(--dracula-cyan);
+	padding: 0 0 0 15px;
+	font-style: italic;
+	quotes: '\201C''\201D''\2018''\2019';
 }
 
 blockquote::after {
-  content: close-quote;
-  margin-left: 5px;
-  font-size: 1.4em;
-  line-height: 0;
-  color: var(--dracula-cyan)
+	content: close-quote;
+	margin-left: 5px;
+	font-size: 1.4em;
+	line-height: 0;
+	color: var(--dracula-cyan);
 }
 
 blockquote p {
-  display: inline;
+	display: inline;
 }
 
-h2,h3,h4 {
-  color: var(--dracula-green);
+h2,
+h3,
+h4 {
+	color: var(--dracula-green);
 }

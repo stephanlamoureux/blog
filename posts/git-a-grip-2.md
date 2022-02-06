@@ -1,5 +1,5 @@
 ---
-title: 'Git a Grip: Part 2 - Don''t Fear Commitment 💍'
+title: "Git a Grip: Part 2 - Don't Fear Commitment 💍"
 date: '2021-02-22'
 ---
 
