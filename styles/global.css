@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-  color: var(--dracula-cyan);
+  color: var(--dracula-purple);
   transform: ease 0.1s;
 }
 
