@@ -83,7 +83,7 @@ Here is a quick reference:
 - `git status` - shows any changes
 - `git add` - stages your files
 - `git rm --cache "filename"` - unstages the file
-- `git commit -m "message"` - commits your changes with a description
+- `git commit -m "message"` - commits changes with a description
 - `git diff` - the difference from your last commit
 
 In part 3, we will learn about connecting our local repository to a remote one and pushing the changes there.

@@ -4,7 +4,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
-  text-shadow: 0 4px 3px rgb(0 0 0 / 40%), 0 8px 13px rgb(0 0 0 / 10%), 0 18px 23px rgb(0 0 0 / 10%);
+  color: #bd93f9;
 }
 
 .headingXl {
@@ -19,13 +19,14 @@
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
+  color: inherit;
 }
 
 .headingLgName {
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
-  color:#f8f8f2;
+  color:#bd93f9;
 }
 
 .headingMd {
