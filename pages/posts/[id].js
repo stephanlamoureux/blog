@@ -37,7 +37,6 @@ export default function Post({ postData }) {
 				<ReactMarkdown components={CodeBlock}>
 					{postData.markdown}
 				</ReactMarkdown>
-				{/* <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} /> */}
 			</article>
 		</Layout>
 	)
