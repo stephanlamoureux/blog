@@ -11,7 +11,7 @@ To counter this, we can use the following CSS to target and style specific brows
 
 ```css
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  property: value;
+	property: value;
 }
 ```
 
@@ -19,9 +19,9 @@ To counter this, we can use the following CSS to target and style specific brows
 
 ```css
 @-moz-document url-prefix() {
-  .class {
-    property: value;
-  }
+	.class {
+		property: value;
+	}
 }
 ```
 
@@ -29,9 +29,9 @@ To counter this, we can use the following CSS to target and style specific brows
 
 ```css
 @supports (-ms-ime-align: auto) {
-  .selector {
-    property: value;
-  }
+	.selector {
+		property: value;
+	}
 }
 ```
 
@@ -40,6 +40,6 @@ To counter this, we can use the following CSS to target and style specific brows
 ```css
 _:-ms-fullscreen,
 :root .ie11up {
-  property: value;
+	property: value;
 }
 ```
