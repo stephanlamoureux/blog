@@ -9,7 +9,7 @@ The goal of this series is to create small, easy-to-digest lessons that get prog
 
 In this article, we will be going over the basic steps to get you started with Git and GitHub.
 
-> [Git](https://git-scm.com/) is a free open-source version control program written by the creator of Linux, Linus Torvalds. It is used for keeping track of changes in files and coordinating work among programmers who are collaboratively developing software.
+> Git is a free open-source version control program written by the creator of Linux, Linus Torvalds. It is used for keeping track of changes in files and coordinating work among programmers who are collaboratively developing software.
 
 ## Install
 
@@ -43,7 +43,7 @@ GitHub is essentially Git for the cloud. It gives you a safe place to store your
 
 ### Create a GitHub account
 
-If you don't have an account yet, signing up at https://github.com/ is painless. Also, if you are a student make sure to apply for the [Github Student Developer Pack](https://education.github.com/pack). It provides a TON of high-quality free resources including a GitHub Pro account, Frontend Masters subscription, free domain names, and much more!
+If you don't have an account yet, signing up at [GitHub](https://github.com/) is painless. Also, if you are a student make sure to apply for the [Github Student Developer Pack](https://education.github.com/pack). It provides a TON of high-quality free resources including a GitHub Pro account, Frontend Masters subscription, free domain names, and much more!
 
 ### GitHub Desktop
 
@@ -53,21 +53,33 @@ While you are there, you might as well download the [GitHub Desktop](https://des
 
 We're almost finished with our initial setup. The last thing we need to do is configure Git to associate our work with ourselves. Open up your terminal and enter the following commands to update your Git profile:
 
-1. Set your name:<br>
-   `git config --global user.name "Your Name"`
+1. Set your name:
 
-2. Add your email address:<br>
-   `git config --global user.email "youremail@address.com"`
+   ```shell
+   git config --global user.name "Your Name"
+   ```
 
-3. Link to your GitHub account:<br>
-   `git config --global user.username "github username"` (case sensitive!)
+2. Add your email address:
+
+   ```shell
+   git config --global user.email "youremail@address.com"
+   ```
+
+3. Link to your GitHub account:
+
+   ```shell
+   git config --global user.username "github username" (case sensitive!)
+   ```
 
 Make sure you are inputting `user.username` and not `user.name` otherwise you will overwrite your name and you will not be correctly synced to your GitHub account.
 
 You can double-check any of your settings by typing `git config --global user.name` and so on. To make any changes just type the necessary command again as mentioned in steps 1-3 to overwrite.
 
-One last configuration I make is to change the name of the initial branch from 'master' to 'main'. I'd rather use more inclusive terms when possible, and another popular name to use for it is 'trunk'. We will go over branches in depth later but for now, here is how to do this:<br>
-`git config --global init.defaultBranch main`
+One last configuration I make is to change the name of the initial branch from `master` to `main`. I'd rather use more inclusive terms when possible, and another popular name to use for it is `trunk`. We will go over branches in depth later but for now, here is how to do this:
+
+```shell
+git config --global init.defaultBranch main
+```
 
 _Edit: The above method only works after you have made your first commit._
 

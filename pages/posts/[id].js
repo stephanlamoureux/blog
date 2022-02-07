@@ -3,6 +3,8 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import CodeBlock from '../../components/codeblock'
+import ReactMarkdown from 'react-markdown'
 
 export async function getStaticProps({ params }) {
 	const postData = await getPostData(params.id)
@@ -32,7 +34,10 @@ export default function Post({ postData }) {
 				<div className={utilStyles.dateText}>
 					<Date dateString={postData.date} />
 				</div>
-				<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+				<ReactMarkdown components={CodeBlock}>
+					{postData.markdown}
+				</ReactMarkdown>
+				{/* <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} /> */}
 			</article>
 		</Layout>
 	)

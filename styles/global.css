@@ -13,7 +13,7 @@ body {
 	font-family: 'Inter', sans-serif;
 	line-height: 1.5;
 	font-size: 18px;
-	background-color: var(--dracula-background);
+	background-color: var(--dracula-greypurple);
 	color: var(--dracula-foreground);
 	text-shadow: 0 4px 3px rgb(0 0 0 / 40%), 0 8px 13px rgb(0 0 0 / 10%),
 		0 18px 23px rgb(0 0 0 / 10%);
@@ -89,4 +89,8 @@ h2,
 h3,
 h4 {
 	color: var(--dracula-green);
+}
+
+code {
+	color: var(--dracula-yellow);
 }
