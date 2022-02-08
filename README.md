@@ -1,3 +1,5 @@
-# TODO
+# Stephan's Blog
 
-- Add links to other articles in same series
+Welcome to the new home of my blog, the next step will be incorporating this into my portolio site. 
+
+I started with the Next.js blog tutorial and then made it my own. 
