@@ -10,6 +10,9 @@ const CodeBlock = {
 					style={dracula}
 					language={match[1]}
 					PreTag="div"
+					customStyle={{
+						backgroundColor: '#44475a',
+					}}
 					{...props}
 				>
 					{String(children).replace(/\n$/, '')}

@@ -99,3 +99,10 @@ Here is a quick recap of the commands we used:
 
 - `ls -lah` - long list format, human-readable, and show hidden files.
 - `git remote add` - add a new remote address
+
+| Git a Grip (3 Part Series)                                                     |
+| :----------------------------------------------------------------------------- |
+| Git a Grip: Part 1 - [Initial Setup 💻](/posts/git-a-grip-1)                   |
+| Git a Grip: Part 2 - [Don't Fear Commitment 💍](/posts/git-a-grip-2)           |
+| Git a Grip: Part 3 - [Ah, push it - push it real good 🔊](/posts/git-a-grip-3) |
+| Git a Grip: Part 4 - _Coming Soon_                                             |

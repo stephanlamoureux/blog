@@ -93,3 +93,10 @@ Another way to do this without having to commit first is found [here.](https://s
 ## Conclusion
 
 That should cover everything we need to get started, I'll see you in the next article where we will learn some basic terminal commands and create our first repository.
+
+| Git a Grip (3 Part Series)                                                     |
+| :----------------------------------------------------------------------------- |
+| Git a Grip: Part 1 - [Initial Setup 💻](/posts/git-a-grip-1)                   |
+| Git a Grip: Part 2 - [Don't Fear Commitment 💍](/posts/git-a-grip-2)           |
+| Git a Grip: Part 3 - [Ah, push it - push it real good 🔊](/posts/git-a-grip-3) |
+| Git a Grip: Part 4 - _Coming Soon_                                             |

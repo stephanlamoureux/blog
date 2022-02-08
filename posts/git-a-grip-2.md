@@ -111,3 +111,10 @@ Here is a quick reference:
 - `git diff` - the difference from your last commit
 
 In part 3, we will learn about connecting our local repository to a remote one and pushing the changes there.
+
+| Git a Grip (3 Part Series)                                                     |
+| :----------------------------------------------------------------------------- |
+| Git a Grip: Part 1 - [Initial Setup 💻](/posts/git-a-grip-1)                   |
+| Git a Grip: Part 2 - [Don't Fear Commitment 💍](/posts/git-a-grip-2)           |
+| Git a Grip: Part 3 - [Ah, push it - push it real good 🔊](/posts/git-a-grip-3) |
+| Git a Grip: Part 4 - _Coming Soon_                                             |

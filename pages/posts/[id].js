@@ -5,6 +5,7 @@ import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import CodeBlock from '../../components/codeblock'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 export async function getStaticProps({ params }) {
 	const postData = await getPostData(params.id)
@@ -34,7 +35,11 @@ export default function Post({ postData }) {
 				<div className={utilStyles.dateText}>
 					<Date dateString={postData.date} />
 				</div>
-				<ReactMarkdown components={CodeBlock}>
+				<ReactMarkdown
+					className="markdown"
+					components={CodeBlock}
+					remarkPlugins={[remarkGfm]}
+				>
 					{postData.markdown}
 				</ReactMarkdown>
 			</article>
