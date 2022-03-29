@@ -1,5 +1,5 @@
 ---
-title: 'Git a Grip: Part 3 - Ah, push it - push it real good 🔊'
+title: 'Git a Grip: Part 3 - Ah, push it 🔊'
 date: '2021-02-27'
 ---
 
