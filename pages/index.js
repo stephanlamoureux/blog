@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
 
 			<section className={utilStyles.headingMd}>
 				<p>
-					I'm Steve, a developer from the{' '}
+					Yo! I'm Steve, a developer from the{' '}
 					<a href="https://en.wikipedia.org/wiki/Rhode_Island">Ocean State</a>{' '}
 					and a <a href="https://vetswhocode.io/">VetsWhoCode</a> alumni.
 					Welcome to my digital garden, where you can find all of the tech
@@ -31,7 +31,9 @@ export default function Home({ allPostsData }) {
 				</p>
 			</section>
 
-			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+			<section
+				className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.marginTop3rem}`}
+			>
 				<ul className={utilStyles.list}>
 					{allPostsData &&
 						allPostsData.map(({ id, date, title }) => (
