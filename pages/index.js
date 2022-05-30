@@ -23,13 +23,11 @@ export default function Home({ allPostsData }) {
 
 			<section className={utilStyles.headingMd}>
 				<p>
-					I am a Vets Who Code alumni making a career transition into coding.
-					Fueled by copious amounts of caffeine and curiosity, I love to follow
-					my fascinations wherever they take me. As a lifelong learner, I thrive
-					on continuing to challenge myself and do worthwhile things that
-					matter. I’m a self-starter who can pick up new skills quickly and
-					juggle different projects and roles. I also love collaborating with
-					others and contributing to the open-source community.
+					I'm Steve, a developer from the{' '}
+					<a href="https://en.wikipedia.org/wiki/Rhode_Island">Ocean State</a>{' '}
+					and a <a href="https://vetswhocode.io/">VetsWhoCode</a> alumni.
+					Welcome to my digital garden, where you can find all of the tech
+					related resources I've written.
 				</p>
 			</section>
 
