@@ -2,7 +2,7 @@
 
 # Stephan's Blog
 
-Welcome to the new home of my blog, the next step will be incorporating this into my portolio site. 
+Welcome to the new home of my blog! 
 
-I started with the Next.js blog tutorial and then made it my own. 
+I started with the Next.js blog tutorial and then continue to make it my own. 
 
