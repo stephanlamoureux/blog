@@ -4,5 +4,5 @@
 
 Welcome to the new home of my blog! 
 
-I started with the [Next.js tutorial](https://nextjs.org/learn/basics/create-nextjs-app) and continue to make it my own. 
+I started with the [Next.js tutorial](https://nextjs.org/learn/basics/create-nextjs-app) and continue making it my own. 
 
