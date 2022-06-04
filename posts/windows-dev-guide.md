@@ -66,15 +66,19 @@ Windows does not automatically update or upgrade your Linux distribution(s). Thi
 When you open the Windows file explorer, it displays your devices and drives. We are going to add our Ubuntu virtual drive as a network location for easy access.
 
 1. Open the `\\wsl$\` location from file explorer:
-   ![File explorer search bar]([../public/images/dev-guide/search-bar.jpg](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vpouje1q3pdemlgic9lm.jpg)
 
-1. Right-click on the Ubuntu folder, and select `Map network drive`:
+   ![File explorer search bar](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vpouje1q3pdemlgic9lm.jpg)
+
+2. Right-click on the Ubuntu folder, and select `Map network drive`:
+
    ![Mapping network drive](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fzo894w02yt2494ds56o.jpg)
 
-1. Select the drive letter you would like to use, leave `Reconnect at sign-in` checked and `Connect using different credentials` unchecked, and then click finish (mine will look slightly different because it's already been done):
+3. Select the drive letter you would like to use, leave `Reconnect at sign-in` checked and `Connect using different credentials` unchecked, and then click finish (mine will look slightly different because it's already been done):
+
    ![Mapping network drive](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6buxuwak7bdmdnv8fvwz.jpg)
 
-1. The end result should look something like this:
+4. The end result should look something like this:
+
    ![File explorer](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1ahqj416o6qnaxp6dzt2.jpg)
 
 If you wanted to access your Windows files from the Linux terminal, they are found in the `/mnt/` directory, so your Windows user directory would be located at `/mnt/c/Users/username`.
@@ -107,7 +111,7 @@ If you go back to your Linux shell everything should be back to normal.
 
 ---
 
-## Windows Terminal
+## 👨‍💻 Windows Terminal
 
 To launch a Linux terminal we currently need to use the Ubuntu icon from the Start menu or enter the `wsl` or `bash` commands into PowerShell/Command Prompt. Another option that will give us more features like tabs, split views, themes, transparency, and key bindings, is to use the Windows Terminal. There are also a few other terminals like [Cmder](https://cmder.net/), [ConEmu](https://conemu.github.io/), or [Hyper](https://hyper.is/), but in my experience, Windows Terminal works extremely well.
 
@@ -124,8 +128,11 @@ A couple of quick things I recommend setting up is the default profile and your 
 Windows Terminal will open a PowerShell or Command Prompt shell when launched by default, here is how to switch it to WSL:
 
 1. Select the `˅` icon from Windows Terminal and go to the Settings menu:
+
    ![Windows terminal settings](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/khl7jyj0svhbh4mp2qqf.jpeg)
-1. In the Startup section you will find the Default profile dropdown, select Ubuntu. Below it, select Windows Terminal as the Default terminal application:
+
+2. In the Startup section you will find the Default profile dropdown, select Ubuntu. Below it, select Windows Terminal as the Default terminal application:
+
    ![Default shell profile](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/32mpr2pao94165fy2n9q.jpeg)
 
 #### Starting Directory
@@ -261,16 +268,13 @@ Autosuggestions for zsh, It suggests commands as you type based on history and c
 1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
    ```sh
-
    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
    ```
 
 2. Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
 
    ```sh
-
    plugins=(git zsh-autosuggestions)
-
    ```
 
 3. Start a new terminal session.
@@ -282,17 +286,13 @@ This package provides syntax highlighting for the shell zsh. It enables highligh
 1. Clone this repository in oh-my-zsh's plugins directory:
 
    ```sh
-
    git clone <https://github.com/zsh-users/zsh-syntax-highlighting.git> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
    ```
 
 2. Activate the plugin in `~/.zshrc`:
 
    ```sh
-
    plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
-
    ```
 
 3. Start a new terminal session.
@@ -312,9 +312,7 @@ You will likely need to switch between multiple versions of Node.js based on the
 1. Open your Ubuntu command line and Install nvm with:
 
    ```sh
-
    curl -o- <https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh> | bash
-
    ```
 
    To verify installation, enter: `command -v nvm`. This should return 'nvm', if you receive 'command not found' or no response at all, close your current terminal, reopen it, and try again.
@@ -322,9 +320,7 @@ You will likely need to switch between multiple versions of Node.js based on the
 2. List which versions of Node are currently installed (should be none at this point):
 
    ```sh
-
    nvm ls
-
    ```
 
    ![Ubuntu terminal displaying node not installed](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mqmjllptjplmqmh0t4pa.png)
@@ -333,25 +329,19 @@ You will likely need to switch between multiple versions of Node.js based on the
    Install the current stable LTS release of Node.js (recommended for production applications):
 
    ```sh
-
    nvm install --lts
-
    ```
 
    Install the current release of Node.js (for testing latest Node.js features and improvements, but more likely to have issues):
 
    ```sh
-
    nvm install node
-
    ```
 
 4. List what versions of Node are installed:
 
    ```sh
-
    nvm ls
-
    ```
 
 Now you should see the two versions that you just installed listed.
@@ -361,17 +351,13 @@ Now you should see the two versions that you just installed listed.
 5. Verify that Node.js is installed and the current version:
 
    ```sh
-
    node --version
-
    ```
 
    Then verify that you have npm installed as well:
 
    ```sh
-
    npm --version
-
    ```
 
 #### Changing Node Version
@@ -498,9 +484,7 @@ Use the search bar from the Start menu and type in `powershell`. A link to Run a
 4.  Now run the following command:
 
 ```sh
-
  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-
 ```
 
 5. If you don't see any errors, you are ready to use Chocolatey! Type `choco` or `choco -?` now, or see [Getting Started](https://docs.chocolatey.org/en-us/getting-started) for usage instructions.
