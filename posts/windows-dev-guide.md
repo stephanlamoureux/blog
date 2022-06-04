@@ -66,11 +66,14 @@ Windows does not automatically update or upgrade your Linux distribution(s). Thi
 When you open the Windows file explorer, it displays your devices and drives. We are going to add our Ubuntu virtual drive as a network location for easy access.
 
 1. Open the `\\wsl$\` location from file explorer:
-   ![File explorer search bar](../public/images/dev-guide/search-bar.jpg)
+   ![File explorer search bar]([../public/images/dev-guide/search-bar.jpg](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vpouje1q3pdemlgic9lm.jpg)
+
 1. Right-click on the Ubuntu folder, and select `Map network drive`:
    ![Mapping network drive](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fzo894w02yt2494ds56o.jpg)
+
 1. Select the drive letter you would like to use, leave `Reconnect at sign-in` checked and `Connect using different credentials` unchecked, and then click finish (mine will look slightly different because it's already been done):
    ![Mapping network drive](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6buxuwak7bdmdnv8fvwz.jpg)
+
 1. The end result should look something like this:
    ![File explorer](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1ahqj416o6qnaxp6dzt2.jpg)
 
