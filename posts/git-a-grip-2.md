@@ -7,18 +7,18 @@ In this lesson, we will start using some basic shell commands and the Git CLI (c
 
 ## The Terminal
 
-Before we start working with Git, let's learn a few basic commands to help us move about our system. For this tutorial, the default shell will be fine to use with any operating system, just be aware that they all differ slightly. Windows uses PowerShell, macOS uses Zsh, and Linux typically defaults to Bash. However, if you are running Windows, I would recommend using [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) or Git Bash (comes bundled with the Git Windows installer) instead of PowerShell.
+Before we start working with Git, lets learn a few basic commands to help us move about our system. For this tutorial, the default shell will be fine to use with any operating system, just be aware that they all differ slightly. Windows uses PowerShell, macOS uses Zsh, and Linux typically defaults to Bash. However, if you are running Windows, I would recommend using [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) or Git Bash (comes bundled with the Git Windows installer) instead of PowerShell.
 
 ### Creating our workspace
 
 Open your terminal and enter the command `mkdir git-a-grip`.
 This will create a new directory named `git-a-grip` inside of your home folder (unless you have changed your shell's default directory). We will be working in this directory for the rest of the series. Following that up, use the `ls` command to display all the files and folders in your current directory. You should see our newly created one.
 
-Next, move into that new directory by entering `cd git-a-grip`.
+Next, change into that new directory by entering `cd git-a-grip`.
 
 ## Git Started
 
-Now that we are inside the `git-a-grip` directory, we want to tell Git to start tracking any changes here. We use the `git init` command, and this will initialize Git in our current directory. You should see a message stating `Initialized empty Git repository in [your current location]`. Great! now we have a working repository. A repo (repository) is just a collection of files related to a project.
+Now that we are inside the `git-a-grip` directory, we want to tell Git to start tracking any changes here. We use the `git init` command, and this will initialize Git in our current directory. You should see a message stating `Initialized empty Git repository in [your current location]`. Great! Now we have a working repository. A repo (repository) is just a collection of files related to a project.
 
 _Note that any time we use a command that starts with `git`, we are using the Git CLI, which is just a way to run Git commands through the command line._
 
@@ -78,7 +78,7 @@ We are finally ready to commit our file. To do so, use the following command:
 git commit -m "Created README"
 ```
 
-The `-m` flag stands for "message", and it's important to put a detailed description with each one of your commits. You will thank yourself later and if other developers look at the commit history it helps to see more than "I hope this works" in the description.
+The `-m` flag stands for "message", it's important to put a detailed description with each one of your commits. You will thank yourself later and if other developers look at the commit history it helps to see more than "I hope this works" in the description.
 
 If you make a typo or want to change your description, use the following command to edit your commit message:
 

@@ -1,5 +1,5 @@
 ---
-title: 'Windows Developer Setup Guide'
+title: 'Windows Web Developer Setup Guide'
 date: '2022-05-28'
 ---
 
