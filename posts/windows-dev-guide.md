@@ -227,7 +227,7 @@ Note:
 
 If you ever receive the following error message:
 
-```
+```sh
 /mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe store: 1: 
 /mnt/c/Program Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe: not found
 ```
