@@ -220,7 +220,22 @@ You can also download the [latest installer for Windows](https://github.com/GitC
 Once Git Credential Manager is installed you can set it up for use with WSL. Open your WSL terminal and enter this command:
 
 ```sh
-git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager-core.exe"
+```
+
+Note:
+
+If you ever receive the following error message:
+
+```
+/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe store: 1: 
+/mnt/c/Program Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe: not found
+```
+
+Try using the this command:
+
+```sh
+git config --global credential.helper store
 ```
 
 ---
