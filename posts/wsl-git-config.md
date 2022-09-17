@@ -45,8 +45,6 @@ Make sure you are inputting `user.username` and not `user.name` otherwise you wi
 
 You can double-check any of your settings by typing `git config --global user.name` and so on. To make any changes just type the necessary command again as in the examples above.
 
----
-
 ## 😺 GitHub Credentials
 
 ### Creating your Personal Access Token
@@ -77,7 +75,7 @@ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git
 
 Note:
 
-If you ever receive the following error message:
+> If you ever receive the following error message:
 
 ```sh
 /mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe store: 1:
