@@ -302,7 +302,7 @@ This package provides syntax highlighting for the shell zsh. It enables highligh
 
 ## 📦 Node.js
 
-Node.js is a JavaScript runtime environment that executes JavaScript code outside a web browser.
+Node.js is a JavaScript runtime environment that executes JavaScript code outside a web browser. It allows us to install packages, run local web servers, create APIs, and more.
 
 ### NVM
 
@@ -361,17 +361,17 @@ Now you should see the two versions that you just installed listed.
    npm --version
    ```
 
-#### Changing Node Version
+#### Changing Node Versions
 
 Use the following commands to change the version of Node you would like to use for any given project:
 
-To switch to the Current version:
+_Switch to the Current version:_
 
 ```sh
 nvm use node
 ```
 
-To switch to the LTS version:
+_Switch to the LTS version:_
 
 ```sh
 nvm use --lts
