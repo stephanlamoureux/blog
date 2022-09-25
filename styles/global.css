@@ -26,6 +26,7 @@ body {
 *::selection {
 	background: var(--dracula-green);
 	color: var(--dracula-background);
+	text-shadow: none;
 }
 
 :root {
@@ -93,6 +94,10 @@ h4 {
 
 code {
 	color: var(--dracula-yellow);
+}
+
+code::selection {
+	color: var(--dracula-foreground);
 }
 
 .markdown img {
