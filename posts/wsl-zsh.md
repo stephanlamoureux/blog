@@ -53,9 +53,7 @@ Autosuggestions for zsh, It suggests commands as you type based on history and c
 1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
 ```sh
-
 git clone <https://github.com/zsh-users/zsh-autosuggestions> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
 ```
 
 2. Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
@@ -73,9 +71,7 @@ This package provides syntax highlighting for the shell zsh. It enables highligh
 1. Clone this repository in oh-my-zsh's plugins directory:
 
 ```sh
-
 git clone <https://github.com/zsh-users/zsh-syntax-highlighting.git> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
 ```
 
 2. Activate the plugin in `~/.zshrc`:
