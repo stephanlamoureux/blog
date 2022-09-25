@@ -238,7 +238,7 @@ Z shell works almost identically to the standard BASH shell found on default Lin
 sudo apt install zsh
 ```
 
-After installing, type the `zsh` command. Zsh will ask you to choose some configurations. We will do this later on while installing oh-my-zsh, so choose option 0 to create the config file and prevent this message from showing again.
+After installing, type the `zsh` command. Zsh will ask you to choose some configurations. We will do this later on while installing oh-my-zsh, so choose option `0` to create the config file and prevent this message from showing again.
 
 ### OhMyZsh
 
@@ -263,6 +263,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 That's it! You should now see a `.oh-my-zsh` directory inside of your home directory. To change your plugins and themes you will need to edit your `.zshrc` file, also found in your home dir. Here is a list of all the [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) and [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) that come bundled with OhMyZsh.
 
 ### More Plugins
+
+There are countless plugins available, but these are the two I recommend most.
 
 #### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
