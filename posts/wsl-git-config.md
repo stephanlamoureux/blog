@@ -9,6 +9,8 @@ This guide walks you through the initial Git config and setting up your Personal
 
 My two assumptions for this are that you have Windows 10/11 and WSL already installed.
 
+_The terminal commands used are based off of Ubuntu/Debian based Linux distributions._
+
 ## 📝 Git Config
 
 Git should come pre-installed on most, if not all of the WSL Linux distributions. To ensure you have the latest version, use the following command in an Ubuntu or Debian based distro:
