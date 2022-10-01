@@ -5,14 +5,14 @@ date: '2022-09-25'
 
 Z shell works almost identically to the standard BASH shell found on default Linux installs. What makes it different is its support for plugins and themes, along with some extra features like spelling correction and recursive path expansion. It's time to throw BASH in the trash!
 
-## Prerequisites
+## ✅ Prerequisites
 
 - Windows 10 or 11
 - WSL or WSL2
 
 _The terminal commands used are based off of Ubuntu/Debian based Linux distributions._
 
-## Installing Zsh
+## 🐚 Installing Zsh
 
 ```sh
 sudo apt install zsh
@@ -20,7 +20,7 @@ sudo apt install zsh
 
 After installing, type the `zsh` command. Zsh will ask you to choose some configurations. We will do this later on while installing oh-my-zsh, so choose option `0` to create the config file and prevent this message from showing again.
 
-## OhMyZsh
+## 😱 OhMyZsh
 
 The most popular plugin framework by far is [OhMyZsh](https://ohmyz.sh/). It comes preloaded with loads of plugins, themes, helpers, and more. It can help with productivity for sure, but more importantly, it just looks cool 😎.
 
@@ -82,4 +82,6 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 3. Start a new terminal session.
 
-## Conclusion
+## 🔚 Conclusion
+
+## 📚 References
