@@ -5,7 +5,7 @@ date: '2022-09-17'
 
 This guide walks you through the initial Git config and setting up your Personal Access Token in a Windows dev environment.
 
-## Prerequisites
+## ✅ Prerequisites
 
 My two assumptions for this are that you have Windows 10/11 and WSL already installed.
 
@@ -88,6 +88,12 @@ Try using the this command:
 git config --global credential.helper store
 ```
 
-## Conclusion
+## 🔚 Conclusion
 
 That wraps up the basics for a Git config on Windows! If you are interested in learning more, check out my [Git a Grip series](https://dev.to/stephanlamoureux/series/11364).
+
+## 📚 References
+
+- [GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- [Git a Grip](https://dev.to/stephanlamoureux/series/11364)
+- [Git Docs](https://git-scm.com/docs)
