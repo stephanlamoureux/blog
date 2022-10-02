@@ -1,5 +1,5 @@
 ---
-title: 'Getting Started With Chocolatey'
+title: 'Getting Started With Chocolatey 🍫'
 date: '2022-10-02'
 ---
 
