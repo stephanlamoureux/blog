@@ -14,6 +14,8 @@ _The terminal commands used are based off of Ubuntu/Debian based Linux distribut
 
 ## 🐚 Installing Zsh
 
+Zsh can be installed with one command:
+
 ```sh
 sudo apt install zsh
 ```
@@ -42,11 +44,11 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 That's it! You should now see a `.oh-my-zsh` directory inside of your home directory. To change your plugins and themes you will need to edit your `.zshrc` file, also found in your home dir. Here is a list of all the [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) and [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) that come bundled with OhMyZsh.
 
-### More Plugins
+## 🔌 Plugins
 
 There are countless plugins available, but these are the two I recommend most.
 
-#### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
 Autosuggestions for zsh, It suggests commands as you type based on history and completions.
 
@@ -64,7 +66,7 @@ plugins=(git zsh-autosuggestions)
 
 3. Start a new terminal session.
 
-#### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 This package provides syntax highlighting for the shell zsh. It enables highlighting of commands whilst they are typed at a zsh prompt into an interactive terminal. This helps in reviewing commands before running them, particularly in catching syntax errors.
 
@@ -82,6 +84,10 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 3. Start a new terminal session.
 
+### More
+
+A huge list of plugins can be found at the [awesome zsh plugins repo](https://github.com/unixorn/awesome-zsh-plugins).
+
 ## 🔚 Conclusion
 
-## 📚 References
+### References

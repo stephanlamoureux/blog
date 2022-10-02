@@ -254,6 +254,8 @@ Z shell works almost identically to the standard BASH shell found on default Lin
 
 ### Installing Zsh
 
+Zsh can be installed with one command:
+
 ```sh
 sudo apt install zsh
 ```
@@ -321,6 +323,10 @@ This package provides syntax highlighting for the shell zsh. It enables highligh
    ```
 
 3. Start a new terminal session.
+
+##### More
+
+A huge list of plugins can be found at the [awesome zsh plugins repo](https://github.com/unixorn/awesome-zsh-plugins).
 
 &nbsp;
 
