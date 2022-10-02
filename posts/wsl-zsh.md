@@ -1,6 +1,6 @@
 ---
 title: '💤 Zsh in WSL'
-date: '2022-09-25'
+date: '2022-10-01'
 ---
 
 Z shell works almost identically to the standard BASH shell found on default Linux installs. What makes it different is its support for plugins and themes, along with some extra features like spelling correction and recursive path expansion. It's time to throw BASH in the trash!
@@ -106,6 +106,8 @@ A huge list of plugins can be found at the [awesome zsh plugins repo](https://gi
 
 ---
 
-## 🔚 Conclusion
-
 ### References
+
+- [OhMyZsh Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki)
+- [Using Zsh in Windows Terminal](http://kevinprogramming.com/using-zsh-in-windows-terminal/)
+- [A User's Guide to the Z-Shell](https://zsh.sourceforge.io/Guide/zshguide.html)
