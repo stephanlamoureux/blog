@@ -72,6 +72,8 @@ blockquote {
 	padding: 0 0 0 15px;
 	font-style: italic;
 	quotes: '\201C''\201D''\2018''\2019';
+	margin-left: 0;
+	margin-right: 0;
 }
 
 blockquote::after {
