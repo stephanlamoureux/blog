@@ -107,7 +107,7 @@ Node Package Manager is the default package manager for Node.js. It is a command
 
 ### Initializing
 
-When creating a new project that will utilize NPM, the first step is to initialize it. First, make sure you are in the root directory of your project and then use the following command:
+When creating a new project that will utilize NPM, the first step is to initialize it. Make sure you are in the root directory of your project, and then use the following command:
 
 ```sh
 npm init

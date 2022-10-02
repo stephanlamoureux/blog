@@ -9,7 +9,7 @@ This guide walks you through the initial Git config and setting up your Personal
 
 My two assumptions for this are that you have Windows 10/11 and WSL already installed.
 
-_The terminal commands used are based off of Ubuntu/Debian based Linux distributions._
+_The terminal commands used are based on Ubuntu/Debian-based Linux distributions._
 
 &nbsp;
 

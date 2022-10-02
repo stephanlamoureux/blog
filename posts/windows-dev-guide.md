@@ -123,7 +123,7 @@ Windows 11 comes with Windows Terminal by default, but If you are using Windows 
 
 ### Terminal Settings
 
-A couple of quick things I recommend setting up is the default profile and your starting home directory. These settings make it so launching Windows Terminal will open directly into WSL inside our user's home directory.
+A couple of quick things I recommend setting up are the default profile and your starting home directory. These settings make it so launching Windows Terminal will open directly into WSL inside our user's home directory.
 
 #### Default Profile
 
