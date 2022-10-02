@@ -480,23 +480,37 @@ Windows Terminal added a new feature where you can launch a PowerShell/Command P
 
 1. Open an administrative PowerShell terminal
 
-2. Run `Get-ExecutionPolicy`.
+2. Run the following command:
 
-3. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
+```ps
+Get-ExecutionPolicy
+```
 
-   > With PowerShell, you must ensure Get-ExecutionPolicy is not Restricted. We suggest using Bypass to bypass the policy to get things installed or AllSigned for quite a bit more security.
+3. If it returns `Restricted`, then run one of the following commands:
 
-4. Now run the following command:
+```ps
+Set-ExecutionPolicy AllSigned
+```
 
-```sh
+or
+
+```ps
+Set-ExecutionPolicy Bypass -Scope Process
+```
+
+> With PowerShell, you must ensure Get-ExecutionPolicy is not Restricted. We suggest using Bypass to bypass the policy to get things installed or AllSigned for quite a bit more security.
+
+4. Finally, run the following command:
+
+```ps
  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-5. If you don't see any errors, you are ready to use Chocolatey! Type `choco` or `choco -?` now, or see [Getting Started](https://docs.chocolatey.org/en-us/getting-started) for usage instructions.
+If you don't see any errors, you are ready to use Chocolatey! Type `choco` or `choco -?` now, or see [Getting Started](https://docs.chocolatey.org/en-us/getting-started) for usage instructions.
 
 ### Basic Chocolatey Commands
 
-We use the `choco` command to use chocolatey. Just remember, you must use an administrative shell for it to work. Search for available apps on the [Community Package Repository](https://community.chocolatey.org/packages).
+We use the `choco` command to run chocolatey. (_Remember, you must use an administrative shell for it to work._)
 
 Install a new package:
 
@@ -529,6 +543,8 @@ choco upgrade all
 ```
 
 ### Windows Apps
+
+Search for available apps on the [Community Package Repository](https://community.chocolatey.org/packages).
 
 Here are a few of my favorite (free) apps for productivity and development on Windows:
 
