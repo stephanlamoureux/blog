@@ -9,10 +9,14 @@ After a lot of trial and error, I've been able to piece together a pretty respec
 
 _The [repo](https://github.com/Vets-Who-Code/windows-dev-guide) for this guide contains some additional info and will be continually updated._
 
-## ☑ Prerequisites
+### Prerequisites
 
 - Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11 [(Which version do I have?)](https://support.microsoft.com/en-us/topic/628bec99-476a-2c13-5296-9dd081cdd808)
 - A [GitHub](https://github.com) account
+
+&nbsp;
+
+---
 
 ## 🐧 WSL
 
@@ -105,6 +109,10 @@ wsl.exe
 
 If you go back to your Linux shell everything should be back to normal.
 
+&nbsp;
+
+---
+
 ## 👨‍💻 Windows Terminal
 
 To launch a Linux terminal we currently need to use the Ubuntu icon from the Start menu or enter the `wsl` or `bash` commands into PowerShell/Command Prompt. Another option that will give us more features like tabs, split views, themes, transparency, and key bindings, is to use the Windows Terminal. There are also a few other terminals like [Cmder](https://cmder.net/), [ConEmu](https://conemu.github.io/), or [Hyper](https://hyper.is/), but in my experience, Windows Terminal works extremely well.
@@ -149,6 +157,10 @@ There are many more settings to explore, and there is also a JSON file you can e
 
 Check out [this guide](https://www.ubuntupit.com/best-windows-terminal-themes-and-color-schemes/) for some popular Windows Terminal themes and how to install them.
 
+&nbsp;
+
+---
+
 ## 📝 Git Config
 
 Git should come pre-installed on most, if not all of the WSL Linux distributions. To ensure you have the latest version, use the following command in an Ubuntu or Debian based distro:
@@ -184,6 +196,10 @@ git config --global user.username "GitHub username"
 Make sure you are inputting `user.username` and not `user.name` otherwise you will overwrite your name and you will not be correctly synced to your GitHub account.
 
 You can double-check any of your settings by typing `git config --global user.name` and so on. To make any changes just type the necessary command again as in the examples above.
+
+&nbsp;
+
+---
 
 ## 😺 GitHub Credentials
 
@@ -227,6 +243,10 @@ Try using the this command:
 ```sh
 git config --global credential.helper store
 ```
+
+&nbsp;
+
+---
 
 ## 💤 Zsh
 
@@ -301,6 +321,10 @@ This package provides syntax highlighting for the shell zsh. It enables highligh
    ```
 
 3. Start a new terminal session.
+
+&nbsp;
+
+---
 
 ## 📦 Node.js
 
@@ -387,6 +411,10 @@ nvm use v8.2.1.
 
 To list all of the versions of Node.js available, use the command: `nvm ls-remote`.
 
+&nbsp;
+
+---
+
 ## 💻 Visual Studio Code
 
 There are many amazing code editors available for free, but Visual Studio Code has become the defacto standard and my personal favorite.
@@ -439,6 +467,10 @@ The number of extensions available for VS Code can be overwhelming, here are som
 Note:
 
 > You will need to install any VS Code extensions for your Remote - WSL. Extensions already installed locally on VS Code will not automatically be available. [Learn more](https://code.visualstudio.com/docs/remote/wsl#_managing-extensions).
+
+&nbsp;
+
+---
 
 ## 🍫 Chocolatey
 
@@ -565,6 +597,10 @@ You can download all these at once with the following command using chocolatey i
 choco install wox runjs responsively zeal figma drawio github-desktop postman notion powertoys -y
 ```
 
+&nbsp;
+
+---
+
 ## 🪜 Chrome Extensions
 
 These are all available as [Firefox extensions](https://addons.mozilla.org/en-US/firefox/extensions/) as well.
@@ -576,6 +612,10 @@ These are all available as [Firefox extensions](https://addons.mozilla.org/en-US
 - [Nimbus Capture](https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj) - Screen Capture full Web page or any part.
 - [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm) - With this extension, you could inspect web fonts by just hovering on them.
 - [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) - Makes JSON easy to read.
+
+&nbsp;
+
+---
 
 ## 📚 References
 

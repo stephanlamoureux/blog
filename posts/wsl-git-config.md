@@ -94,7 +94,7 @@ git config --global credential.helper store
 
 That wraps up the basics for a Git config on Windows! If you are interested in learning more, check out my [Git a Grip series](https://dev.to/stephanlamoureux/series/11364).
 
-## 📚 References
+### References
 
 - [GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 - [Git a Grip](https://dev.to/stephanlamoureux/series/11364)
