@@ -282,7 +282,9 @@ Enter the following command into your terminal to install OhMyZsh:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-That's it! You should now see a `.oh-my-zsh` directory inside of your home directory. To change your plugins and themes you will need to edit your `.zshrc` file, also found in your home dir. Here is a list of all the [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) and [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) that come bundled with OhMyZsh.
+That's it! You should now see a `.oh-my-zsh` directory inside of your home directory. To change your plugins and themes you will need to edit your `.zshrc` file, also found in your home dir.
+
+Here is a list of all the [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) and [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) that come bundled with OhMyZsh.
 
 ### More Plugins
 
@@ -599,7 +601,7 @@ Here are a few of my favorite (free) apps for productivity and development on Wi
 
 You can download all these at once with the following command using chocolatey in an admin shell:
 
-```sh
+```ps
 choco install wox runjs responsively zeal figma drawio github-desktop postman notion powertoys -y
 ```
 
