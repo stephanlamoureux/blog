@@ -14,6 +14,7 @@ Before we start the installation process, I want to cover launching an administr
 Right-click on the Windows start menu and select Windows Terminal (Admin):
 
 ![Right clicked Windows start menu](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mqzguucwp7aajeotgb92.png)
+
 Once your terminal loads, click the `˅` icon and open a new PowerShell tab. It should say `Administrator: Windows PowerShell` in the new tab:
 
 ![Admin PowerShell](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7yjofkr8p4pnwfci6mha.png)
