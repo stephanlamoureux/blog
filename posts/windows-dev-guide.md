@@ -482,7 +482,7 @@ Note:
 
 ## 🍫 Chocolatey
 
-Chocolatey is a package manager like [homebrew](https://brew.sh/), but for Windows.
+[Chocolatey](https://community.chocolatey.org/) is a command-line package manager like [homebrew](https://brew.sh/) or [APT](https://ubuntu.com/server/docs/package-management), but for Windows.
 
 ### Admin Shell
 

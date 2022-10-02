@@ -1,9 +1,19 @@
 ---
 title: 'Getting Started With Chocolatey'
-date: '2022-10-01'
+date: '2022-10-02'
 ---
 
-Chocolatey is a package manager like [homebrew](https://brew.sh/), but for Windows.
+[Chocolatey](https://community.chocolatey.org/) is a command-line package manager like [homebrew](https://brew.sh/) or [APT](https://ubuntu.com/server/docs/package-management), but for Windows.
+
+### Requirements
+
+- Windows 7+
+- PowerShell
+- .NET Framework 4+
+
+&nbsp;
+
+---
 
 ## 🧑‍💻 Admin Shell
 
@@ -141,8 +151,6 @@ choco install wox runjs responsively zeal figma drawio github-desktop postman no
 &nbsp;
 
 ---
-
-## 🔚 Conclusion
 
 ### References
 
