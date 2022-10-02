@@ -538,7 +538,7 @@ or
 Set-ExecutionPolicy Bypass -Scope Process
 ```
 
-> With PowerShell, you must ensure Get-ExecutionPolicy is not Restricted. We suggest using Bypass to bypass the policy to get things installed or AllSigned for quite a bit more security.
+> With PowerShell, you must ensure `Get-ExecutionPolicy` is not Restricted. We suggest using `Bypass` to bypass the policy to get things installed or `AllSigned` for quite a bit more security.
 
 4. Finally, run the following command:
 
