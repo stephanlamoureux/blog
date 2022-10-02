@@ -1,5 +1,5 @@
 ---
-title: 'How to Target Specific Browsers with CSS'
+title: 'How to Target Specific Browsers With CSS'
 date: '2021-04-23'
 ---
 
