@@ -12,6 +12,10 @@ Z shell works almost identically to the standard BASH shell found on default Lin
 
 _The terminal commands used are based off of Ubuntu/Debian based Linux distributions._
 
+&nbsp;
+
+---
+
 ## 🐚 Installing Zsh
 
 Zsh can be installed with one command:
@@ -21,6 +25,10 @@ sudo apt install zsh
 ```
 
 After installing, type the `zsh` command. Zsh will ask you to choose some configurations. We will do this later on while installing oh-my-zsh, so choose option `0` to create the config file and prevent this message from showing again.
+
+&nbsp;
+
+---
 
 ## 😱 OhMyZsh
 
@@ -43,6 +51,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ```
 
 That's it! You should now see a `.oh-my-zsh` directory inside of your home directory. To change your plugins and themes you will need to edit your `.zshrc` file, also found in your home dir. Here is a list of all the [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) and [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) that come bundled with OhMyZsh.
+
+&nbsp;
+
+---
 
 ## 🔌 Plugins
 
@@ -87,6 +99,10 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ### More
 
 A huge list of plugins can be found at the [awesome zsh plugins repo](https://github.com/unixorn/awesome-zsh-plugins).
+
+&nbsp;
+
+---
 
 ## 🔚 Conclusion
 

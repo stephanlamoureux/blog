@@ -11,6 +11,10 @@ My two assumptions for this are that you have Windows 10/11 and WSL already inst
 
 _The terminal commands used are based off of Ubuntu/Debian based Linux distributions._
 
+&nbsp;
+
+---
+
 ## 📝 Git Config
 
 Git should come pre-installed on most, if not all of the WSL Linux distributions. To ensure you have the latest version, use the following command in an Ubuntu or Debian based distro:
@@ -46,6 +50,10 @@ git config --global user.username "GitHub username"
 Make sure you are inputting `user.username` and not `user.name` otherwise you will overwrite your name and you will not be correctly synced to your GitHub account.
 
 You can double-check any of your settings by typing `git config --global user.name` and so on. To make any changes just type the necessary command again as in the examples above.
+
+&nbsp;
+
+---
 
 ## 😺 GitHub Credentials
 
@@ -89,6 +97,10 @@ Try using the this command:
 ```sh
 git config --global credential.helper store
 ```
+
+&nbsp;
+
+---
 
 ## 🔚 Conclusion
 
