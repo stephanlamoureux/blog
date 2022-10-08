@@ -9,7 +9,7 @@ date: '2022-10-02'
 
 - Windows 7+
 - PowerShell
-- .NET Framework 4+
+- .NET Framework 4+ (the installer will install it if you do not have it)
 
 &nbsp;
 
