@@ -5,7 +5,7 @@ date: '2022-09-17'
 
 This guide walks you through the initial Git config and setting up your Personal Access Token in a Windows dev environment.
 
-## ✅ Prerequisites
+### Requirements
 
 My two assumptions for this are that you have Windows 10/11 and WSL already installed.
 
