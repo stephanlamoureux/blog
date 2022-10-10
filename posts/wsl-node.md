@@ -229,7 +229,7 @@ Two more symbols we can use are `^` and `~`.
 For example, `npm install ^8.1.1` specification might install version `8.3.1` if that's the latest minor version.
 
 `~` is the latest patch release.
-In the same way as minor releases, `npm install ~8.1.1` could install version `8.1.6` if that's the latest minor version available.
+In the same way as minor releases, `npm install ~8.1.1` could install version `8.1.6` if that's the latest patch version available.
 
 When using the `npm install` or `npm i` command, the latest minor version will be used.
 
