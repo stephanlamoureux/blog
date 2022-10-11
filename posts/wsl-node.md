@@ -1,15 +1,14 @@
 ---
-title: 'Set up Node.js on WSL'
+title: 'Node.js: Installation and Basics'
 date: '2022-10-10'
 ---
 
 Node.js is a JavaScript runtime environment that executes JavaScript code outside a web browser. It allows us to install packages, run local web servers, create APIs, and more.
 
-## ✅ Prerequisites
+## ✅ Requirements
 
-- Windows 10 or 11
-- WSL or WSL2
-- cURL
+- WSL/macOS/Linux
+- cURL or Wget
 
 &nbsp;
 
@@ -21,10 +20,14 @@ You will likely need to switch between multiple versions of Node.js based on the
 
 ### Installing NVM
 
-1. Open your WSL terminal and Install nvm with:
+1. Open your terminal and install nvm with `curl` or `wget`:
 
    ```sh
    url -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   ```
+
+   ```sh
+   wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
    ```
 
    To verify installation, enter: `command -v nvm`. This should return 'nvm', if you receive 'command not found' or no response at all, close your current terminal, reopen it, and try again.
@@ -259,7 +262,7 @@ The keys in the scripts object are the command names and the values are the actu
 
 ---
 
-_Check out the official [npm](https://docs.npmjs.com/) and [Node.js](https://nodejs.org/en/docs/) docs for more in-depth guides._
+_Check out the official [NPM](https://docs.npmjs.com/), [NVM](https://github.com/nvm-sh/nvm), and [Node.js](https://nodejs.org/en/docs/) docs for more in-depth guides._
 
 ### References
 
