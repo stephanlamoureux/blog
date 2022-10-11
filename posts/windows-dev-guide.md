@@ -795,4 +795,5 @@ These are all available as [Firefox extensions](https://addons.mozilla.org/en-US
 - [Using Zsh in Windows Terminal](http://kevinprogramming.com/using-zsh-in-windows-terminal/)
 - [A User's Guide to the Z-Shell](https://zsh.sourceforge.io/Guide/zshguide.html)
 - [Installing Node on WSL](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
+- [What is npm? A Node Package Manager Tutorial for Beginners](https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/)
 - [Chocolatey Install Docs](https://chocolatey.org/install)

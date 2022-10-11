@@ -267,7 +267,5 @@ _Check out the official [NPM](https://docs.npmjs.com/), [NVM](https://github.com
 ### References
 
 - [What is npm? A Node Package Manager Tutorial for Beginners](https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/)
-
 - [An Absolute Beginner's Guide to Using npm](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
-
 - [npm: How To Install A Specific Version of Node.js Package](https://www.mend.io/free-developer-tools/blog/npm-how-to-install-a-specific-version-of-node-js-package/)
