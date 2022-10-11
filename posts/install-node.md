@@ -5,7 +5,7 @@ date: '2022-10-10'
 
 Node.js is a JavaScript runtime environment that executes JavaScript code outside a web browser. It allows us to install packages, run local web servers, create APIs, and more.
 
-## ✅ Requirements
+### Requirements
 
 - WSL/macOS/Linux
 - cURL or Wget
