@@ -20,7 +20,7 @@ You will likely need to switch between multiple versions of Node.js based on the
 
 ### Installing NVM
 
-1. Open your terminal and install nvm with `curl` or `wget`:
+1. Open your terminal and install NVM with `curl` or `wget`:
 
    ```sh
    url -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash

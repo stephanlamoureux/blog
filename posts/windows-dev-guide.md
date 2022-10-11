@@ -340,14 +340,18 @@ Node.js is a JavaScript runtime environment that executes JavaScript code outsid
 
 ### NVM
 
-You will likely need to switch between multiple versions of Node.js based on the needs of different projects you're working on. Node Version Manager allows you to quickly install and use different versions of node via the command line.
+You will likely need to switch between multiple versions of Node.js based on the needs of different projects you're working on. Node Version Manager allows you to quickly install and use different versions of Node via the command-line.
 
 #### Installing NVM
 
-1. Open your Ubuntu command line and Install nvm with:
+1. Open your terminal and install NVM with `curl` or `wget`:
 
    ```sh
    curl -o- <https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh> | bash
+   ```
+
+   ```sh
+   wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
    ```
 
    To verify installation, enter: `command -v nvm`. This should return 'nvm', if you receive 'command not found' or no response at all, close your current terminal, reopen it, and try again.
@@ -414,7 +418,7 @@ nvm use --lts
 You can also use the specific number for any additional versions you've installed:
 
 ```sh
-nvm use v8.2.1.
+nvm use v8.2.1
 ```
 
 To list all of the versions of Node.js available, use the command: `nvm ls-remote`.
@@ -573,7 +577,7 @@ npm run format
 
 The keys in the scripts object are the command names and the values are the actual commands.
 
-_Check out the official [npm](https://docs.npmjs.com/) and [Node.js](https://nodejs.org/en/docs/) docs for more in-depth guides._
+_Check out the official [NPM](https://docs.npmjs.com/), [NVM](https://github.com/nvm-sh/nvm), and [Node.js](https://nodejs.org/en/docs/) docs for more in-depth guides._
 
 &nbsp;
 
