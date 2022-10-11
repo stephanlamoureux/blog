@@ -1,5 +1,5 @@
 ---
-title: 'Node.js: Installation and Basics'
+title: 'Node.js: Installation & Basics'
 date: '2022-10-10'
 ---
 
