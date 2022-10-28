@@ -27,7 +27,7 @@ export default function Home({ allPostsData }) {
 					<a href="https://en.wikipedia.org/wiki/Rhode_Island">Ocean State</a>{' '}
 					and a <a href="https://vetswhocode.io/">VetsWhoCode</a> alumni.
 					Welcome to my digital garden, where you can find all of the tech
-					related resources I've written.
+					related articles I've written.
 				</p>
 			</section>
 
