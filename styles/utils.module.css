@@ -63,3 +63,14 @@
 .marginTop3rem {
 	margin-top: 3.5rem;
 }
+
+.subheader {
+	font-size: 0.9rem;
+	font-family: system-ui, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue',
+		sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-top: -10px;
+	margin-left: 8px;
+	font-style: italic;
+}

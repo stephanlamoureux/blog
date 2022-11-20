@@ -22,13 +22,7 @@ export default function Home({ allPostsData }) {
 			</Head>
 
 			<section className={utilStyles.headingMd}>
-				<p>
-					Yo! I'm Steve, a developer from the{' '}
-					<a href="https://en.wikipedia.org/wiki/Rhode_Island">Ocean State</a>{' '}
-					and a <a href="https://vetswhocode.io/">VetsWhoCode</a> alumni.
-					Welcome to my digital garden, where you can find all of the tech
-					related articles I've written.
-				</p>
+				<p className={utilStyles.subheader}>Welcome to my digital garden🌱</p>
 			</section>
 
 			<section
