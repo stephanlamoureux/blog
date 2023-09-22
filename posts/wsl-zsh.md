@@ -15,17 +15,6 @@ Z shell works almost identically to the standard BASH shell found on default Lin
   - [More](#more)
   - [References](#references)
 
-### Requirements
-
-- Windows 10 or 11
-- WSL or WSL2
-
-_The terminal commands used are based on Ubuntu/Debian-based Linux distributions._
-
-&nbsp;
-
----
-
 ## 🐚 Installing Zsh
 
 Zsh can be installed with one command:

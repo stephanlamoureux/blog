@@ -6,29 +6,20 @@ date: '2022-10-10'
 Node.js is a JavaScript runtime environment that executes JavaScript code outside a web browser. It allows us to install packages, run local web servers, create APIs, and more.
 
 - [🎛 NVM](#-nvm)
-	- [Installing NVM](#installing-nvm)
-	- [Changing Node Versions](#changing-node-versions)
+  - [Installing NVM](#installing-nvm)
+  - [Changing Node Versions](#changing-node-versions)
 - [📦 NPM](#-npm)
-	- [New Projects](#new-projects)
-	- [package.json](#packagejson)
-	- [Installing Modules](#installing-modules)
-	- [Dependencies](#dependencies)
-	- [Developer Dependencies](#developer-dependencies)
-	- [Batch Installing](#batch-installing)
-	- [Uninstalling](#uninstalling)
-	- [Versioning](#versioning)
-	- [package-lock.json](#package-lockjson)
-	- [Scripts](#scripts)
-		- [References](#references)
-
-### Requirements
-
-- WSL/macOS/Linux
-- cURL or Wget
-
-&nbsp;
-
----
+  - [New Projects](#new-projects)
+  - [package.json](#packagejson)
+  - [Installing Modules](#installing-modules)
+  - [Dependencies](#dependencies)
+  - [Developer Dependencies](#developer-dependencies)
+  - [Batch Installing](#batch-installing)
+  - [Uninstalling](#uninstalling)
+  - [Versioning](#versioning)
+  - [package-lock.json](#package-lockjson)
+  - [Scripts](#scripts)
+    - [References](#references)
 
 ## 🎛 NVM
 

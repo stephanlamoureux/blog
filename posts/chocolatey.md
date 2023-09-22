@@ -5,13 +5,14 @@ date: '2022-10-02'
 
 [Chocolatey](https://community.chocolatey.org/) is a command-line package manager like [homebrew](https://brew.sh/) or [APT](https://ubuntu.com/server/docs/package-management), but for Windows.
 
+- [Requirements](#requirements)
 - [🧑‍💻 Admin Shell](#-admin-shell)
 - [🍫 Installing Chocolatey](#-installing-chocolatey)
 - [⌨️ Basic Commands](#️-basic-commands)
 - [📱 App Recommendations](#-app-recommendations)
   - [References](#references)
 
-### Requirements
+## Requirements
 
 - Windows 7+
 - PowerShell
