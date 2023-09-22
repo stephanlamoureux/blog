@@ -5,6 +5,16 @@ date: '2022-10-01'
 
 Z shell works almost identically to the standard BASH shell found on default Linux installs. What makes it different is its support for plugins and themes, along with some extra features like spelling correction and recursive path expansion. It's time to throw BASH in the trash!
 
+- [🐚 Installing Zsh](#-installing-zsh)
+- [😱 OhMyZsh](#-ohmyzsh)
+  - [cURL](#curl)
+  - [Installing OhMyZsh](#installing-ohmyzsh)
+- [🔌 Plugins](#-plugins)
+  - [zsh-autosuggestions](#zsh-autosuggestions)
+  - [zsh-syntax-highlighting](#zsh-syntax-highlighting)
+  - [More](#more)
+  - [References](#references)
+
 ### Requirements
 
 - Windows 10 or 11

@@ -5,6 +5,17 @@ date: '2022-09-17'
 
 This guide walks you through the initial Git config and setting up your Personal Access Token in a Windows dev environment.
 
+- [📝 Git Config](#-git-config)
+	- [Name](#name)
+	- [Email](#email)
+	- [Username](#username)
+- [😺 GitHub Credentials](#-github-credentials)
+	- [Creating your Personal Access Token](#creating-your-personal-access-token)
+	- [Git Credential Manager](#git-credential-manager)
+	- [Storing Your Token](#storing-your-token)
+- [🔚 Conclusion](#-conclusion)
+	- [References](#references)
+
 ### Requirements
 
 My two assumptions for this are that you have Windows 10/11 and WSL already installed.
