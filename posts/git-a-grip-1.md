@@ -5,6 +5,17 @@ date: '2021-02-18'
 
 The goal of this series is to create small, easy-to-digest lessons that get progressively more in-depth. Hopefully, this can turn into a quick reference guide while also being a non-intimidating way to learn Git.
 
+- [What is Git?](#what-is-git)
+- [Install](#install)
+  - [Windows](#windows)
+  - [macOS](#macos)
+  - [Linux](#linux)
+- [GitHub](#github)
+  - [Create a GitHub account](#create-a-github-account)
+  - [GitHub Desktop](#github-desktop)
+- [Configure](#configure)
+- [Conclusion](#conclusion)
+
 ## What is Git?
 
 In this article, we will be going over the basic steps to get you started with Git and GitHub.

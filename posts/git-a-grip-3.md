@@ -5,6 +5,15 @@ date: '2021-02-27'
 
 In the last part, we created a repository on our local system. However, if we want to share our code or collaborate, it needs to be available in a public location. [GitHub](https://github.com) is one of the many hosts that provides this service. Some of the other popular platforms include [GitLab](https://about.gitlab.com/), [BitBucket](https://bitbucket.org/), and [SourceForge](https://sourceforge.net/). GitHub is by far the most popular (and what I use) - that is why I chose it for this series.
 
+- [Create a Remote Repository](#create-a-remote-repository)
+  - [README](#readme)
+  - [.gitignore](#gitignore)
+  - [Licenses](#licenses)
+- [Connect Local to Remote](#connect-local-to-remote)
+- [Push to Remote](#push-to-remote)
+- [Pull](#pull)
+- [Conclusion](#conclusion)
+
 ## Create a Remote Repository
 
 Now we are going to sync the local `git-a-grip` repository to GitHub. Head over to GitHub.com, and in the top right corner click the `+` dropdown and select `New repository`.

@@ -5,6 +5,19 @@ date: '2021-02-22'
 
 In this lesson, we will start using some basic shell commands and the Git CLI (command line interface) to navigate the file system and to create our first repository. We will then cover the different steps taken until a file is officially committed into our local repository.
 
+- [The Terminal](#the-terminal)
+	- [Creating our workspace](#creating-our-workspace)
+- [Git Started](#git-started)
+	- [Create a README](#create-a-readme)
+- [Ready For Commitment](#ready-for-commitment)
+	- [Tracking](#tracking)
+	- [Staging](#staging)
+		- [Adding multiple files](#adding-multiple-files)
+		- [Uh-oh](#uh-oh)
+	- [Committing](#committing)
+	- [More changes](#more-changes)
+- [Conclusion](#conclusion)
+
 ## The Terminal
 
 Before we start working with Git, lets learn a few basic commands to help us move about our system. For this tutorial, the default shell will be fine to use with any operating system, just be aware that they all differ slightly. Windows uses PowerShell, macOS uses Zsh, and Linux typically defaults to Bash. However, if you are running Windows, I would recommend using [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) or Git Bash (comes bundled with the Git Windows installer) instead of PowerShell.
